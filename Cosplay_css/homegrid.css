@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background: url(../Cosplay_images/DanyWaterfallBG.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow: scroll;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+html, body {
+    height: 100%;
+}
+
+.container {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  grid-template-areas:
+    "Nav Blank"
+    "Nav Blank"
+    "Nav Blank"
+    "Nav Blank"
+    "Nav Blank"
+    "Nav Intro"
+    "Nav Intro"
+    "Nav Credit";
+  grid-template-rows: repeat(8, 1fr);
+  grid-template-columns: 1fr 5fr;
+  padding: 10px;
+}
+
+
+h1 {
+  font-size: 50px;
+}
+
+p {
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+nav {
+  display: grid;
+  border-radius: 5px;
+  font-size: 20px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border: 3px solid white;
+  text-align: center;
+  grid-area: Nav;
+}
+
+nav a {
+  background: LightSteelBlue;
+  border: 3px solid LightGrey;
+  border-radius: 5px;
+  color: white;
+  margin: 40px;
+  padding: 20px 20px;
+  opacity: 0.9;
+  text-decoration: none;
+}
+
+nav a:hover {
+  font-size: 20px;
+  font-weight: bold;
+  background: white;
+  border: 3px solid LightSteelBlue;
+  color: LightSteelBlue;
+  opacity: 0.9;
+}
+
+main {
+  display: grid;
+  text-align: center;
+  margin: 5px;
+  border: 3px solid white;
+  border-radius: 5px;
+  background-color: rgba(176, 196, 222, 0.8);
+  grid-area: Intro;
+  overflow: auto;
+}
+
+
+footer {
+  display: grid;
+  grid-area: Credit;
+  opacity: 0.7;
+  justify-content: flex-end;
+  align-content: flex-end;
+  margin: 5px;
+}

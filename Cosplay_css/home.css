@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background: url(../Cosplay_images/DanyWaterfallBG.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow: scroll;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+html, body {
+    height: 100%;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+p {
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+nav {
+  font-size: 20px;
+  list-style-type: none;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 1px solid LightGrey;
+  border-radius: 5px;
+
+}
+
+nav a {
+  background: LightSteelBlue;
+  border: 3px solid LightGrey;
+  border-radius: 5px;
+  color: white;
+  display: inline-block;
+  margin: 40px;
+  padding: 20px 20px;
+  opacity: 0.8;
+  text-decoration: none;
+}
+
+nav a:hover {
+  font-size: 20px;
+  font-weight: bold;
+  background: white;
+  border: 3px solid LightSteelBlue;
+  color: LightSteelBlue;
+  opacity: 0.9;
+
+}
+
+main {
+  width: 70%;
+  margin: 20px auto;
+  text-align: center;
+  border: 3px solid white;
+  border-radius: 5px;
+  background-color: rgba(176, 196, 222, 0.5);
+  position: fixed;
+  top: 75%;
+  left: 26%;
+}
+
+.container {
+  min-height: 100%;
+}
+
+.main {
+  overflow: auto;
+  padding-bottom: 30px;
+}
+
+footer {
+  height: 30px;
+  text-align: right;
+  position: relative;
+  opacity: 0.7;
+  margin-top: -30px;
+  padding-right: 15px;
+}
