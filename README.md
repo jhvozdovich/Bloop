@@ -35,7 +35,7 @@ CSS
 | :------------- | :------------- | :------------- |
 | **Display Only** |  |  |
 | **Button Navigation** | User Input: "Contact Info" | Output: "Opens new page with email, instagram, and youtube links" |
-| **Email List Entry** | User Input: "myemai@gmail.com" | Output: "User added to mailing list and is notified of significant content updates." |
+| **Email List Entry** | User Input: "myemail@gmail.com" | Output: "User added to mailing list and is notified of significant content updates." |
 
 
 ### License
